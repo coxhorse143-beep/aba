@@ -137,3 +137,5 @@ $keterangan  = 'Pembelian Laptop';
 foreach ($metodePembayaran as $metode) {
     $metode->prosesBayar($jumlahBayar, $keterangan);
 }
+
+?>
